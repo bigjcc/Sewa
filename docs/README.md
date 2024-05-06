@@ -3,7 +3,7 @@
 
 Hi! I am Sewa  (I'm the member of the Yes or yes)
 
-| Chinese name : Jin Cancan 
+| Chinese name : Jin Cancan. 
 
 | English name : Sewa 
 
