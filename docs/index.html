@@ -7,26 +7,59 @@
     <style>
         body{
             width: 1820px;
-            height: 1080px;
-            background-color: white; 
+            height: 890px;
+            background-color: #222222; 
+            color:#79438F;
             display: flex;
-            justify-content: center; /* 水平居中 */
-            align-items: center; /* 垂直居中 */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
             min-height: 100vh; /* 设置最小高度为视口高度 */
-            margin: 0; /* 移除默认的margin */
+            text-align: center;
+        }
+        div{
+            display: flex;justify-content: center;/*使图片水平居中*/
+            position: absolute;
+            top: 100px;
+        }
+        .button{
+            display: flex;
+            align-items: center;/*使内容水平居中*/
+            justify-content: center;
+            background-color: #79438F;
+            color: white;
+            width: 155px;
+            height: 60px;/*按钮长宽*/
+            border-radius: 50px;/*矩形圆角程度*/
+            text-align: center;
+            text-decoration: none;
+            font-size: 30px;
+            border: none;
+            position: absolute;
+            display: flex;justify-content: center;
+            top: 850px;/*按钮位置*/
+            cursor: pointer;/*光标样式为手形图标*/
         }
         h1{
-            color:purple;
-            font-size: 100px;
-            margin-bottom: 300px; /* 向下偏移10像素 */
-            text-align: center; /* 水平居中文本 */
+            
+            font-size: 80px;
+            margin-top: 500px;
+        }
+        p{
+            font-size: 30px;
+            margin-top: -20px;
+
         }
     </style>
 </head>
 <body>
+    <div>
+        <img src="./logo.png">
+    </div>
     <header>
-        <h1>Welcome!</h1>
+        <h1>Welcome to my web page!</h1>
     </header>
-
+    <p>You can read my basic information here</p>
+    <a href="Start.html" class="button">Start</a>
 </body>
 </html>
